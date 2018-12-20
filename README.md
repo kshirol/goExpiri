@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GoExpiri
 
 You can use the [editor on GitHub](https://github.com/kshirol/gotestrepository/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
