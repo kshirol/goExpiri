@@ -10,6 +10,7 @@ import (
 
 func clientLoginHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("I am a Test HTTP Server")
+	fmt.Println("This is a Modules Test")
 }
 
 func main() {
