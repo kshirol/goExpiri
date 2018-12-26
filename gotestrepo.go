@@ -19,6 +19,7 @@ func main() {
 	// Init a new router
 	URLRouter := mux.NewRouter()
 	URLRouter.HandleFunc("/login", clientLoginHandler).Methods("POST")
+	go ConfigReader()
 
 	fmt.Println("Starting Server on Port 8030...")
 	log.Fatal(http.ListenAndServe(":8030", URLRouter))
