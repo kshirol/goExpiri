@@ -1,4 +1,4 @@
-package main
+package goExpiri
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ func clientLoginHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Checking these changes from my Windows")
 }
 
-func main() {
+func init() {
 	// Init a new router
 	URLRouter := mux.NewRouter()
 	URLRouter.HandleFunc("/login", clientLoginHandler).Methods("POST")
