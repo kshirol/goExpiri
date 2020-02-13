@@ -1,4 +1,4 @@
-module github.com/goExpiri
+module github.com/kshirol/goExpiri
 
 require (
 	github.com/gorilla/mux v1.6.2
